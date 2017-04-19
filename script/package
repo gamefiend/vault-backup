@@ -2,4 +2,7 @@
 
 export PROJECT_NAME="vault-backup"
 . "$(dirname $0)/setup-go"
+
+go get github.com/hashicorp/consul/api
+go get github.com/docopt/docopt-go
 go build -o vault-backup
