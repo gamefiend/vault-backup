@@ -1,5 +1,5 @@
 #!/bin/sh
 
-export PROJECT_NAME="rover"
+export PROJECT_NAME="vault-backup"
 . "$(dirname $0)/setup-go"
 go build -o vault-backup
